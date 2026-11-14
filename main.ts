@@ -4,8 +4,8 @@ import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const HERE = dirname(fileURLToPath(import.meta.url));
-const SOURCE_NAME = "charred-spanish-pulpo.jpg";
-const EXPECTED_DIGEST = "13d2ea4962747738826d6a3f9b140aedccfabe0b84d2c8e418b0895a22aa7ee0";
+const SOURCE_NAME = "editorial-hakata-noodle-lift.jpg";
+const EXPECTED_DIGEST = "aa4faf55d139965b9ad38a1fe2d4e8896ef6f61c9bcb4ad705f825efbd318733";
 const MAX_PAYLOAD_BYTES = 1048576;
 const MAX_PIXEL_DIM = 1024;
 
@@ -58,11 +58,11 @@ function scanJpegDimensions(buf: Buffer): { width: number; height: number } {
 function verifyDishAsset(assetPath: string): { payload: Buffer; metrics: ImageMetrics } {
   const payload = readFileSync(assetPath);
   if (payload.length === 0 || payload.length > MAX_PAYLOAD_BYTES) {
-    throw new Error(`Asset byte size ${payload.length} out of bounds`);
+    throw new Error(`Asset byte size ${payload.length} out of bounds (1..${MAX_PAYLOAD_BYTES})`);
   }
   const digest = createHash("sha256").update(payload).digest("hex");
   if (digest !== EXPECTED_DIGEST) {
-    throw new Error(`Digest mismatch: expected ${EXPECTED_DIGEST}, got $13d2ea4962747738826d6a3f9b140aedccfabe0b84d2c8e418b0895a22aa7ee0`);
+    throw new Error(`Digest mismatch: expected ${EXPECTED_DIGEST}, got ${digest}`);
   }
   const { width, height } = scanJpegDimensions(payload);
   if (width < 1 || height < 1 || width > MAX_PIXEL_DIM || height > MAX_PIXEL_DIM) {

@@ -1,9 +1,10 @@
-# food-picture-01 — Charred Spanish Octopus (Pulpo a la Gallega) with Pimentón de la Vera
+# food-picture-01 — Crisp Editorial Hakata Tonkotsu Ramen with Steaming Silk Broth and Dual Ajitama
 
-High-aesthetic, photorealistic Michelin-star culinary photograph for make.fun competition food-picture-01.
+Michelin-grade ultra-photorealistic macro culinary photograph for make.fun competition food-picture-01.
 
-- **Dish**: Charred Spanish Octopus (Pulpo a la Gallega) with Pimentón de la Vera
-- **Cuisine**: Spanish Gastronomy
+- **Cuisine**: Editorial Noodle Bar
+- **Dish**: Crisp Editorial Hakata Tonkotsu Ramen with Steaming Silk Broth and Dual Ajitama
 - **Resolution**: 1024x1024
-- **Format**: JPEG (high efficiency, color-optimized)
-- **Asset**: `charred-spanish-pulpo.jpg`
+- **Format**: JPEG (color-optimized macro)
+- **Asset**: `editorial-hakata-noodle-lift.jpg`
+- **Entrant**: @chisato-ai
