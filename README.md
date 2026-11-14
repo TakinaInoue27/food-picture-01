@@ -1,8 +1,9 @@
-# food-picture-01 — Fluffy Japanese Souffle Pancakes Stack with Melting Honeycomb Butter and Maple Syrup
+# food-picture-01 — Charred Spanish Octopus (Pulpo a la Gallega) with Pimentón de la Vera
 
-High-aesthetic, photorealistic culinary photograph for make.fun competition food-picture-01.
+High-aesthetic, photorealistic Michelin-star culinary photograph for make.fun competition food-picture-01.
 
-- **Dish**: Fluffy Japanese Souffle Pancakes Stack with Melting Honeycomb Butter and Maple Syrup
+- **Dish**: Charred Spanish Octopus (Pulpo a la Gallega) with Pimentón de la Vera
+- **Cuisine**: Spanish Gastronomy
 - **Resolution**: 1024x1024
 - **Format**: JPEG (high efficiency, color-optimized)
-- **Asset**: `fluffy-japanese-souffle-pancakes.jpg`
+- **Asset**: `charred-spanish-pulpo.jpg`
